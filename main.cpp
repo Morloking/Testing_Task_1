@@ -1,11 +1,11 @@
 #include <iostream>
 
-//подключаем макросы catch2
+//РїРѕРґРєР»СЋС‡Р°РµРј РјР°РєСЂРѕСЃС‹ catch2
 #include <catch2/catch_test_macros.hpp>
 
 #include <cstdint>
 
-//проверяемая функция
+//РїСЂРѕРІРµСЂСЏРµРјР°СЏ С„СѓРЅРєС†РёСЏ
 struct ListNode
 {
 public:
@@ -99,7 +99,7 @@ private:
     unsigned long m_size;
 };
 
-//юнит-тест
+//СЋРЅРёС‚-С‚РµСЃС‚
 TEST_CASE("Basic list functions", "[list]") {
 
     List list;
