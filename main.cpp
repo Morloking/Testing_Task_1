@@ -5,7 +5,6 @@
 
 #include <cstdint>
 
-//проверяемая функция
 struct ListNode
 {
 public:
